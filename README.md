@@ -24,9 +24,6 @@ Analyze a decade of player ratings, wages, and market values from the FIFA/EA FC
 
   * [Scraping Options](#scraping-options)
   * [Combining Options](#combining-options)
-  * [Notebook Workflow](#notebook-workflow)
-* [Metrics & Analyses](#metrics--analyses)
-* [Visualizations & Dashboards](#visualizations--dashboards)
 * [Data Dictionary (Core Columns)](#data-dictionary-core-columns)
 * [Troubleshooting](#troubleshooting)
 * [Contributing](#contributing)
@@ -158,65 +155,6 @@ python fifa_players_2012_2025_csv.py
 
 This script concatenates per-edition files and writes `fifa_players_2012_2025.csv`.
 
-### Notebook Workflow
-
-Within `Data Processing, Transformation, Manipulation.ipynb` you will:
-
-1. **Load** the combined CSV
-2. **Clean & Standardize**: parse dates, standardize currency/units, normalize positions
-3. **Engineer Features**: contract duration, per-90 stats (if available), value-to-wage ratios
-4. **Filter** Top-5 leagues and relevant seasons
-5. **Explore** with EDA and charts
-6. **Export** curated tables for dashboards (CSV/Excel)
-
----
-
-## Metrics & Analyses
-
-Starter ideas you can adapt:
-
-* **Top Performers**: average/peak overall; attribute leaders (pace, dribbling, defending)
-* **Consistency**: standard deviation of overall across editions; streaks above threshold
-* **Who to Buy**: high potential growth with low wages and favourable value-to-wage
-* **Age Curves**: attribute/overall vs age by position groups
-* **Inflation**: value trends by league/season; compare nominal vs inflation-adjusted
-* **Wage vs Value**: correlation and outliers (undervalued/overvalued)
-* **Footedness & Role**: left/right/weak foot distribution by position and league
-
-**Example Pandas snippets**
-
-```python
-# Top wages in Top-5 leagues
-mask = df["league"].isin(["Premier League","La Liga","Bundesliga","Serie A","Ligue 1"])
-(df[mask]
- .groupby(["edition","club"])["wage"].sum()
- .sort_values(ascending=False)
- .head(20))
-
-# Value-to-wage ratio and shortlist
-df["value_to_wage"] = df["value"].div(df["wage"]).replace([np.inf, -np.inf], np.nan)
-shortlist = (df[mask]
-             .query("overall >= 78 and potential - overall >= 3 and age <= 24")
-             .sort_values("value_to_wage", ascending=False)
-             .head(50))
-```
-
----
-
-## Visualizations & Dashboards
-
-* **Notebook charts**: Matplotlib/Seaborn for quick EDA
-* **Dashboard-ready extracts**: export tidy tables (e.g., `players_top50.csv`, `value_trends.csv`)
-* **BI Tools**: Build a dashboard in **Tableau** (suggested views):
-
-  * *Top 50 value-to-wage players* (filterable by position/league)
-  * *Wage vs Value correlation* over time
-  * *Attribute leaders* (pace/dribbling/defending) by edition
-  * *Footedness distribution* pie/bar by league
-  * *Origin → League flow* (Sankey/stacked bar if Sankey unavailable)
-
-> **Tip:** For Tableau, ensure clean dimensions (e.g., `nation`, `club`, `league`, `position`) and numeric measures (`value`, `wage`, `overall`, `potential`).
-
 ---
 
 ## Data Dictionary (Core Columns)
@@ -309,3 +247,4 @@ This project is licensed under the **MIT License**. See `LICENSE` for details.
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
 
 > Replace badge links and add CI, pre-commit, or Docker badges as needed.
+
