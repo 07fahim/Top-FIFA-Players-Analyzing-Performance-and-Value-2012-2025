@@ -1,0 +1,106 @@
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Selenium & WebDriver
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+*.log
+
+# Data Files (Large CSV files)
+*.csv
+data/raw/*.csv
+data/processed/*.csv
+fifa_players_*.csv
+
+# Temporary Files
+*.tmp
+*.temp
+~$*
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Tableau Files
+*.twb
+*.twbx
+*.tde
+*.hyper
+
+# Credentials & API Keys
+credentials.json
+config.json
+secrets.json
+
+# Scraped Data Backup
+backup/
+scraped_data/
+
+# Test Files
+test_*.py
+*_test.py
+tests/
+
+# Screenshots & Images from Scraping
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Error Logs
+error.log
+scraping.log
+*.log
