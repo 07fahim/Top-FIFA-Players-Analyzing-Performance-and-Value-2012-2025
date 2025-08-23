@@ -1,4 +1,4 @@
-# Top FIFA Players: Analyzing Performance and Value (2012–2024)
+# Top FIFA Players: Analyzing Performance and Value (2012–2025)
 
 Analyze a decade of player ratings, wages, and market values from the FIFA/EA FC series (FIFA 12 → FC 25) to uncover **who to buy**, **who’s the best**, and **how value evolves** across leagues.
 
