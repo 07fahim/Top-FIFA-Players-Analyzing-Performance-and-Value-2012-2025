@@ -1,4 +1,4 @@
-# Top FIFA Players: Analyzing Performance and Value (2012–2025)
+# Top FIFA Players: Analyzing Performance and Value (2012–2024)
 
 Analyze a decade of player ratings, wages, and market values from the FIFA/EA FC series (FIFA 12 → FC 25) to uncover **who to buy**, **who’s the best**, and **how value evolves** across leagues.
 
@@ -13,6 +13,7 @@ Analyze a decade of player ratings, wages, and market values from the FIFA/EA FC
 * [Background](#background)
 * [Objectives](#objectives)
 * [Project Structure](#project-structure)
+* [Dashboards](#dashboards)
 * [Quick Start](#quick-start)
 
   * [Prerequisites](#prerequisites)
@@ -34,7 +35,7 @@ Analyze a decade of player ratings, wages, and market values from the FIFA/EA FC
 
 ## Background
 
-The FIFA video game series—transitioning to **EA FC** provides a rich, consistent snapshot of footballers attributes over time. This project scrapes and analyzes SoFIFA player data from **FIFA 12 to FC 25 (2012–2024)**, with a focus on the **Top-5 European leagues** (*Premier League, La Liga, Bundesliga, Serie A, Ligue 1*). It demonstrates practical data science skills: scraping, cleaning, feature engineering, analysis, and storytelling via dashboards.
+The FIFA video game series—transitioning to **EA FC**—provides a rich, consistent snapshot of footballers’ attributes over time. This project scrapes and analyzes SoFIFA player data from **FIFA 12 to FC 25 (2012–2024)**, with a focus on the **Top-5 European leagues** (*Premier League, La Liga, Bundesliga, Serie A, Ligue 1*). It demonstrates practical data science skills: scraping, cleaning, feature engineering, analysis, and storytelling via dashboards.
 
 ## Objectives
 
@@ -72,6 +73,19 @@ fifa-players-analysis/
 ├── assets/                             # Images for README/dashboard (optional)
 └── README.md                           # This file
 ```
+
+---
+
+## Dashboards
+
+You can explore the project dashboards here:
+
+1. [Dashboard 1]([#](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/LeagueandClubDomianace2012-2025/Dashboard1?publish=yes))
+2. [Dashboard 2](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/PlayerPerformanceMarketValueInsights/Dashboard1?publish=yes)
+3. [Dashboard 3](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/FIFAPlayerAnalyticsPerformanceRankingsLeagueInsights/Dashboard1?publish=yes)
+4. [Dashboard 4]([#](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/FootballDataInsights2012-2025/Dashboard1?publish=yes))
+
+> **Note:** Problem statements and findings will be added soon.
 
 ---
 
@@ -245,6 +259,3 @@ This project is licensed under the **MIT License**. See `LICENSE` for details.
 ![pandas](https://img.shields.io/badge/pandas-✓-informational)
 ![selenium](https://img.shields.io/badge/selenium-✓-success)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
-
-> Replace badge links and add CI, pre-commit, or Docker badges as needed.
-
