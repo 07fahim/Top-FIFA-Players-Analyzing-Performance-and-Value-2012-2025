@@ -8,7 +8,7 @@ Analyze a decade of player ratings, wages, and market values from the FIFA/EA FC
 
 ---
 
-## 🧭 Table of Contents
+##  Table of Contents
 
 * [Background](#background)
 * [Objectives](#objectives)
@@ -95,7 +95,7 @@ You can explore the project dashboards here:
 
 * **Python 3.9+**
 * **Google Chrome** (latest) and a matching **ChromeDriver**
-* (Optional) **JupyterLab** for notebooks, **Tableau/Power BI** for dashboards
+
 
 ### Installation
 
@@ -253,7 +253,7 @@ This project is licensed under the **MIT License**. See `LICENSE` for details.
 
 ---
 
-### Badges (optional)
+### Badges 
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![pandas](https://img.shields.io/badge/pandas-✓-informational)
