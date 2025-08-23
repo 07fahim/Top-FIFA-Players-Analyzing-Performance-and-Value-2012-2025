@@ -34,7 +34,7 @@ Analyze a decade of player ratings, wages, and market values from the FIFA/EA FC
 
 ## Background
 
-The FIFA video game series—transitioning to **EA FC**—provides a rich, consistent snapshot of footballers’ attributes over time. This project scrapes and analyzes SoFIFA player data from **FIFA 12 to FC 25 (2012–2024)**, with a focus on the **Top-5 European leagues** (*Premier League, La Liga, Bundesliga, Serie A, Ligue 1*). It demonstrates practical data science skills: scraping, cleaning, feature engineering, analysis, and storytelling via dashboards.
+The FIFA video game series—transitioning to **EA FC** provides a rich, consistent snapshot of footballers attributes over time. This project scrapes and analyzes SoFIFA player data from **FIFA 12 to FC 25 (2012–2024)**, with a focus on the **Top-5 European leagues** (*Premier League, La Liga, Bundesliga, Serie A, Ligue 1*). It demonstrates practical data science skills: scraping, cleaning, feature engineering, analysis, and storytelling via dashboards.
 
 ## Objectives
 
