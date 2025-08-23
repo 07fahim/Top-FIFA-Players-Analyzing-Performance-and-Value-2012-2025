@@ -80,10 +80,10 @@ fifa-players-analysis/
 
 You can explore the project dashboards here:
 
-1. [Dashboard 1]((https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/LeagueandClubDomianace2012-2025/Dashboard1?publish=yes))
+1. [Dashboard 1](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/LeagueandClubDomianace2012-2025/Dashboard1?publish=yes)
 2. [Dashboard 2](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/PlayerPerformanceMarketValueInsights/Dashboard1?publish=yes)
 3. [Dashboard 3](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/FIFAPlayerAnalyticsPerformanceRankingsLeagueInsights/Dashboard1?publish=yes)
-4. [Dashboard 4]((https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/FootballDataInsights2012-2025/Dashboard1?publish=yes))
+4. [Dashboard 4](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/FootballDataInsights2012-2025/Dashboard1?publish=yes)
 
 > **Note:** Problem statements and findings will be added soon.
 
