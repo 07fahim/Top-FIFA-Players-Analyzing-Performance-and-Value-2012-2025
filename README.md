@@ -1,7 +1,7 @@
-Top FIFA Players: Analyzing Performance and Value (2012–2024)
-Project Background
+### Top FIFA Players: Analyzing Performance and Value (2012–2024)
+## Project Background
 The FIFA video game series, transitioning to EA FC in recent years, provides a rich dataset of player statistics reflecting real-world football performance. This capstone project analyzes player data from FIFA 12 to FC 25 (2012–2024) sourced from SoFIFA. The goal is to uncover insights into player performance, market value trends, and cost-effective signings by leveraging data scraping, cleaning, and analysis techniques. The project focuses on top leagues (Premier League, La Liga, Bundesliga, Serie A, Ligue 1) and serves as a showcase of data science applications in sports analytics.
-Objectives
+## Objectives
 
 Who to Buy: Identify high-potential, cost-effective players using metrics like potential rating, value-to-wage ratio, and performance growth across FIFA editions.
 Who’s the Best: Rank top performers and consistent stars based on overall ratings, key attributes (e.g., pace, dribbling, defending), and career longevity.
