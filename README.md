@@ -1,4 +1,4 @@
-# Top FIFA Players: Analyzing Performance and Value (2012–2024)
+# Top FIFA Players: Analyzing Performance and Value (2012–2025)
 
 Analyze a decade of player ratings, wages, and market values from the FIFA/EA FC series (FIFA 12 → FC 25) to uncover **who to buy**, **who’s the best**, and **how value evolves** across leagues.
 
@@ -8,7 +8,7 @@ Analyze a decade of player ratings, wages, and market values from the FIFA/EA FC
 
 ---
 
-##  Table of Contents
+## Table of Contents
 
 * [Background](#background)
 * [Objectives](#objectives)
@@ -78,14 +78,85 @@ fifa-players-analysis/
 
 ## Dashboards
 
-You can explore the project dashboards here:
+### [League and Club Dominance (Dashboard 1)](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/LeagueandClubDomianace2012-2025/Dashboard1?publish=yes)
 
-1. [Dashboard 1](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/LeagueandClubDomianace2012-2025/Dashboard1?publish=yes)
-2. [Dashboard 2](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/PlayerPerformanceMarketValueInsights/Dashboard1?publish=yes)
-3. [Dashboard 3](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/FIFAPlayerAnalyticsPerformanceRankingsLeagueInsights/Dashboard1?publish=yes)
-4. [Dashboard 4](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/FootballDataInsights2012-2025/Dashboard1?publish=yes)
+**Problem Statements**
 
-> **Note:** Problem statements and findings will be added soon.
+1. Which leagues and clubs hold the most valued players (sum)?
+2. Which country has the highest potential players on average based on the top leagues?
+3. Which clubs have most of the players with more than 3 Specialties (La Liga and EPL)?
+4. Which are the top clubs in terms of players’ average release clause (2025)?
+
+**Findings**
+
+1. La Liga (Real Madrid), EPL (Man City), Serie A (Juventus), Bundesliga (Bayern) dominate most valued players.
+2. Germany and Bundesliga have the highest average potential players.
+3. Real Madrid, Barcelona, and Man City have most players with 3+ specialties.
+4. Real Madrid tops in average release clause (2025).
+
+---
+
+### [Player’s Position Based Market Insights (Dashboard 2)](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/PlayerPerformanceMarketValueInsights/Dashboard1?publish=yes)
+
+**Problem Statements**
+
+1. Who among the top 20 players provides the best market value for their wage?
+2. How do player attributes vary by best position?
+3. Which positions hold the highest market value?
+
+**Findings**
+
+1. Messi and Ronaldo provided best market value across 2012–2025.
+2. Attacking positions (ST, LW, RW, CAM) have the strongest attributes.
+3. Attackers and creative midfielders have higher values than defenders/goalkeepers.
+
+---
+
+### [Age Impact on Value & Performance (Dashboard 3)](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/FIFAPlayerAnalyticsPerformanceRankingsLeagueInsights/Dashboard1?publish=yes)
+
+**Problem Statements**
+
+1. How have top players’ ratings changed across FIFA versions?
+2. How does age influence market value and wages?
+3. Which young talents show the highest potential?
+
+**Findings**
+
+1. Aging stars (Messi, Ronaldo) decline while new talents (Mbappé, Haaland, Vinícius Jr.) rise.
+2. Value peaks at 18–24, wages peak at 27–30, both drop after 30.
+3. Mbappé, Vinícius, Bellingham, Musiala dominate; clubs like Real Madrid & PSG lead.
+
+---
+
+### [Best FIFA Career Mode Signings 2012–2025 (Dashboard 4)](https://public.tableau.com/app/profile/gazi.mohammad.faiyaz/viz/FootballDataInsights2012-2025/Dashboard1?publish=yes)
+
+**Problem Statements**
+
+1. Which top players balance transfer value and rating best for Career Mode?
+2. Which players dominate their positions for an elite XI?
+
+**Findings**
+
+1. Ronaldo, Messi, and 88–92 rated players under €40–50M offer best value.
+2. Elite XI built from position-best rated stars.
+
+---
+
+### Football Data Insights 2012–2025 (Dashboard 5)
+
+**Problem Statements**
+
+1. What are the key market and rating insights for FIFA players from 2012–2025?
+2. What is the geographic distribution of Europe’s most valuable leagues?
+3. Which attribute has stayed most stable across versions?
+4. What percentage of players are in each position group?
+
+**Findings**
+
+1. Huge player market, high ratings, strong growth potential.
+2. EPL leads in market value, followed by La Liga, Bundesliga, Serie A, Ligue 1.
+3. Movement = strongest, Defending = weakest attribute.
+4. Midfielders dominate (>40% of players).
 
 ---
 
@@ -95,7 +166,6 @@ You can explore the project dashboards here:
 
 * **Python 3.9+**
 * **Google Chrome** (latest) and a matching **ChromeDriver**
-
 
 ### Installation
 
@@ -171,13 +241,14 @@ This script concatenates per-edition files and writes `fifa_players_2012_2025.cs
 
 ---
 
+
+
 ## Data Dictionary (Core Columns)
 
 (Your exact columns may vary based on scraper selectors.)
 
 | Column                                | Type     | Description                                                           |
 | ------------------------------------- | -------- | --------------------------------------------------------------------- |
-| `player_id`                           | int/str  | Stable SoFIFA player identifier (useful for tracking across editions) |
 | `name`                                | str      | Player name                                                           |
 | `edition`                             | str      | FIFA edition label (e.g., `fifa_12`, `fc_25`)                         |
 | `age`                                 | int      | Player age in that edition                                            |
