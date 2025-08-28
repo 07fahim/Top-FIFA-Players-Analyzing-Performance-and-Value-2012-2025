@@ -283,4 +283,11 @@ This project is licensed under the MIT License. See LICENSE for details.
 
 ---
 
-**Badges**
+
+## Badges
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+![Pandas](https://img.shields.io/badge/pandas-%E2%9C%94-lightgrey.svg)
+![Selenium](https://img.shields.io/badge/selenium-%E2%9C%94-brightgreen.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
+
