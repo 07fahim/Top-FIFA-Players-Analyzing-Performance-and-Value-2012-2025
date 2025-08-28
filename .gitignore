@@ -31,7 +31,7 @@ share/python-wheels/
 MANIFEST
 
 # Virtual Environment
-venv/
+myenv/
 env/
 ENV/
 env.bak/
@@ -54,11 +54,7 @@ geckodriver
 geckodriver.exe
 *.log
 
-# Data Files (Large CSV files)
-*.csv
-data/raw/*.csv
-data/processed/*.csv
-fifa_players_*.csv
+
 
 # Temporary Files
 *.tmp
@@ -94,11 +90,7 @@ test_*.py
 *_test.py
 tests/
 
-# Screenshots & Images from Scraping
-screenshots/
-*.png
-*.jpg
-*.jpeg
+
 
 # Error Logs
 error.log
