@@ -68,9 +68,9 @@ fifa-players-analysis/
 └── README.md                           # This file
 ```
 
-## [Dashboards](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/LeagueandClubDomianace2012-2025/Dashboard1)(You can visit the public dashboard here.)
+## [Dashboards](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/LeagueandClubDomianace2012-2025/Dashboard1) (You can visit the public dashboard here.)
 
-### League and Club Dominance (Dashboard 1)
+### [League and Club Dominance (Dashboard 1)](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/LeagueandClubDomianace2012-2025/Dashboard1)
 **Problem Statements**
 - Which leagues and clubs hold the most valued players (sum)?
 - Which country has the highest potential players on average based on the top leagues?
@@ -85,7 +85,7 @@ fifa-players-analysis/
 
 ---
 
-### Player's Position Based Market Insights (Dashboard 2)
+### [Player's Position Based Market Insights (Dashboard 2)](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/PlayersPositionBasedMarketInsights/Dashboard1)
 **Problem Statements**
 - Who among the top 20 players provides the best market value for their wage?
 - How do player attributes vary by best position?
@@ -98,7 +98,7 @@ fifa-players-analysis/
 
 ---
 
-### Age Impact on Value & Performance (Dashboard 3)
+### [Age Impact on Value & Performance (Dashboard 3)](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/AgeImpactonValuePerformance/Dashboard1)
 **Problem Statements**
 - How have top players' ratings changed across FIFA versions over time?
 - How does a player's age influence their market value and wages over time?
@@ -111,7 +111,7 @@ fifa-players-analysis/
 
 ---
 
-### Best FIFA Career Mode Signings 2012–2025 (Dashboard 4)
+### [Best FIFA Career Mode Signings 2012–2025 (Dashboard 4)](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/BestFIFACareerModeSignings20122025/Dashboard1)
 **Problem Statements**
 - Which top FIFA players provide the best balance between transfer value and overall rating for potential signings in Career Mode?
 - Which players dominate their respective positions in terms of overall rating for an elite starting XI?
@@ -122,7 +122,7 @@ fifa-players-analysis/
 
 ---
 
-### Football Data Insights 2012–2025 (Dashboard 5)
+### [Football Data Insights 2012–2025 (Dashboard 5)](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/FootballDataInsights2012-2025/Dashboard1)
 **Problem Statements**
 - What are the key market and rating insights for FIFA players from 2012–2025?
 - What is the geographic distribution of Europe's most valuable football leagues?
