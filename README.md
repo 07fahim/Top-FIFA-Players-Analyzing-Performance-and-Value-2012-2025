@@ -4,7 +4,7 @@ Analyze a decade of player ratings, wages, and market values from the FIFA/EA FC
 
 > **Data source:** [SoFIFA](https://sofifa.com) (see **Ethical Scraping** below).
 
-![Banner](./assets/hero.png)
+![Banner](assets/image.png)
 
 ---
 
