@@ -43,7 +43,7 @@ The FIFA video game series—transitioning to **EA FC**—provides a rich, consi
 Identify high-potential, cost-effective players using metrics such as:
 - Potential rating growth  
 - Value-to-wage ratio  
-- Trajectory across FIFA editions (form consistency, attribute deltas)
+- Trajectory across FIFA editions (form consistency, attribute details)
 
 ### Who’s the Best
 Rank top performers and durable stars by:
@@ -53,7 +53,7 @@ Rank top performers and durable stars by:
 ### Player Value
 Study the relationship between market value and performance by:
 - Age, position, league  
-- Macro trends (inflation, edition-to-edition shifts)
+- Macro trends (edition-to-edition shifts)
 
 ---
 
