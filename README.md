@@ -1,53 +1,59 @@
 # Top FIFA Players: Analyzing Performance and Value (2012–2025)
 
-**Data source:** SoFIFA (see Ethical Scraping below).
+Analyze a decade of player ratings, wages, and market values from the FIFA/EA FC series (FIFA 12 → FC 25) to uncover **who to buy**, **who’s the best**, and **how value evolves** across leagues.
+
+> **Data source:** [SoFIFA](https://sofifa.com) (see **Ethical Scraping** below).
+
+![Banner](./assets/hero.png)
 
 ---
 
 ## Table of Contents
 
-- [Background](#background)
-- [Objectives](#objectives)
-- [Project Structure](#project-structure)
-- [Dashboards](#dashboards)
-- [Quick Start](#quick-start)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Run the Scraper](#run-the-scraper)
-  - [Combine CSVs](#combine-csvs)
-  - [Process & Analyze](#process--analyze)
-- [Usage Details](#usage-details)
-  - [Scraping Options](#scraping-options)
-  - [Combining Options](#combining-options)
-- [Data Dictionary (Core Columns)](#data-dictionary-core-columns)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+* [Background](#background)
+* [Objectives](#objectives)
+* [Project Structure](#project-structure)
+* [Dashboards](#dashboards)
+* [Quick Start](#quick-start)
+
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+  * [Run the Scraper](#run-the-scraper)
+  * [Combine CSVs](#combine-csvs)
+  * [Process & Analyze](#process--analyze)
+* [Usage Details](#usage-details)
+
+  * [Scraping Options](#scraping-options)
+  * [Combining Options](#combining-options)
+* [Data Dictionary (Core Columns)](#data-dictionary-core-columns)
+* [Troubleshooting](#troubleshooting)
+* [Contributing](#contributing)
+* [License](#license)
+* [Acknowledgments](#acknowledgments)
+* [Badges](#badges)
 
 ---
 
 ## Background
-The FIFA video game series—transitioning to EA FC—provides a rich, consistent snapshot of footballers' attributes over time. This project scrapes and analyzes SoFIFA player data from FIFA 12 to FC 25 (2012–2024), with a focus on the Top-5 European leagues (Premier League, La Liga, Bundesliga, Serie A, Ligue 1). It demonstrates practical data science skills: scraping, cleaning, feature engineering, analysis, and storytelling via dashboards.
+
+The FIFA video game series—transitioning to **EA FC**—provides a rich, consistent snapshot of footballers’ attributes over time. This project scrapes and analyzes SoFIFA player data from **FIFA 12 to FC 25 (2012–2024)**, with a focus on the **Top-5 European leagues** (*Premier League, La Liga, Bundesliga, Serie A, Ligue 1*). It demonstrates practical data science skills: scraping, cleaning, feature engineering, analysis, and storytelling via dashboards.
 
 ## Objectives
-**Who to Buy**  
-Identify high-potential, cost-effective players using metrics such as:
-- Potential rating growth
-- Value-to-wage ratio
-- Trajectory across FIFA editions (form consistency, attribute deltas)
 
-**Who's the Best**  
-Rank top performers and durable stars by:
-- Overall rating and key attributes (pace, dribbling, defending, etc.)
-- Career longevity and consistency
+**Who to Buy**
 
-**Player Value**  
-Study the relationship between market value and performance by:
-- Age, position, league
-- Macro trends (inflation, edition-to-edition shifts)
+* Identify high-potential, cost-effective players using metrics such as potential rating growth, value-to-wage ratio, and trajectory across FIFA editions.
+
+**Who’s the Best**
+
+* Rank top performers and durable stars by overall rating, key attributes, and career consistency.
+
+**Player Value**
+
+* Study market value vs. performance by age, position, league, and edition-to-edition trends.
 
 ---
+
 
 ## Project Structure
 ```
