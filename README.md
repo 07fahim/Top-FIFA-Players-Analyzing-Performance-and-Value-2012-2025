@@ -92,7 +92,7 @@ fifa-players-analysis/
 
 **Findings**
 - La Liga (Real Madrid), EPL (Man City), Serie A (Juventus), and Bundesliga (Bayern Munich) dominate in terms of the total market value of their players.
-- Germany and the Bundesliga have the highest average potential players across the top leagues.
+- Germany has the highest average player potential, with the Bundesliga being the top-performing league.
 - Real Madrid, FC Barcelona, and Manchester City have the most players with more than 3 specialties in La Liga and the EPL.
 - Real Madrid leads in average release clause for players in 2025, reflecting their high-value squad.
 
