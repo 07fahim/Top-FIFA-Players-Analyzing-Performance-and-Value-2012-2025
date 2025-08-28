@@ -78,7 +78,7 @@ fifa-players-analysis/
 ├── assets/                        # Images for README/dashboard
 ├── requirements.txt               # Dependencies
 ├── LICENSE                        # MIT License
-└── .gitignore                     # Git ignore file                           # This file
+└── .gitignore                     # Git ignore file                          
 ```
 
 ## [Dashboards](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/LeagueandClubDomianace2012-2025/Dashboard1) (You can visit the public dashboard here.)
