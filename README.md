@@ -39,18 +39,21 @@ Analyze a decade of player ratings, wages, and market values from the FIFA/EA FC
 The FIFA video game series—transitioning to **EA FC**—provides a rich, consistent snapshot of footballers’ attributes over time. This project scrapes and analyzes SoFIFA player data from **FIFA 12 to FC 25 (2012–2024)**, with a focus on the **Top-5 European leagues** (*Premier League, La Liga, Bundesliga, Serie A, Ligue 1*). It demonstrates practical data science skills: scraping, cleaning, feature engineering, analysis, and storytelling via dashboards.
 
 ## Objectives
+### Who to Buy
+Identify high-potential, cost-effective players using metrics such as:
+- Potential rating growth  
+- Value-to-wage ratio  
+- Trajectory across FIFA editions (form consistency, attribute deltas)
 
-**Who to Buy**
+### Who’s the Best
+Rank top performers and durable stars by:
+- Overall rating and key attributes (pace, dribbling, defending, etc.)  
+- Career longevity and consistency  
 
-* Identify high-potential, cost-effective players using metrics such as potential rating growth, value-to-wage ratio, and trajectory across FIFA editions.
-
-**Who’s the Best**
-
-* Rank top performers and durable stars by overall rating, key attributes, and career consistency.
-
-**Player Value**
-
-* Study market value vs. performance by age, position, league, and edition-to-edition trends.
+### Player Value
+Study the relationship between market value and performance by:
+- Age, position, league  
+- Macro trends (inflation, edition-to-edition shifts)
 
 ---
 
