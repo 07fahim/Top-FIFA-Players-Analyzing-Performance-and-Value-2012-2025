@@ -61,14 +61,24 @@ Study the relationship between market value and performance by:
 ## Project Structure
 ```
 fifa-players-analysis/
-├── fifa_scrape.py                      # Script to scrape SoFIFA data
-├── fifa_players_2012_2025_csv.py       # Script to combine per-version CSVs
-├── Data Processing, Transformation, Manipulation.ipynb  # Cleaning & EDA
-├── requirements.txt                    # Python dependencies
-├── fifa_players_2012_2025.csv          # Combined dataset (generated)
-├── fifa_players_*.csv                  # Per-version CSVs (generated)
-├── assets/                             # Images for README/dashboard (optional)
-└── README.md                           # This file
+├── data/
+│   ├── raw/                        # Raw scraped CSVs
+│   │   ├── fifa_players_fifa_12.csv
+│   │   ├── fifa_players_fifa_13.csv
+│   │   └── ...
+│   ├── processed/                  # Cleaned datasets
+│   │   ├── cleaned_fifa_players_2012_2025.csv
+│   │   └── cleaned_fifa_players_2012_2025.xlsx
+│   
+├── src/                            # Source code
+│   ├── fifa_data_scrape.py             # Scraping script
+│   └── fifa_players_2012_2025_csv.py  # CSV combination script
+├── notebooks/                      # Analysis notebooks
+│   └── PreProcessing.ipynb
+├── assets/                        # Images for README/dashboard
+├── requirements.txt               # Dependencies
+├── LICENSE                        # MIT License
+└── .gitignore                     # Git ignore file                           # This file
 ```
 
 ## [Dashboards](https://public.tableau.com/app/profile/gazi.mohammad.fahimfaiyaz/viz/LeagueandClubDomianace2012-2025/Dashboard1) (You can visit the public dashboard here.)
