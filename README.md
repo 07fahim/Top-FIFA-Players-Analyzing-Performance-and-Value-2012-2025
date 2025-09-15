@@ -2,7 +2,7 @@
 
 Analyze a decade of player ratings, wages, and market values from the FIFA/EA FC series (FIFA 12 → FC 25) to uncover **who to buy**, **who’s the best**, and **how value evolves** across leagues.
 
-> **Data source:** [SoFIFA](https://sofifa.com) (see **Ethical Scraping** below).
+> **Data source:** [SoFIFA](https://sofifa.com) 
 
 ![Banner](assets/image.png)
 
