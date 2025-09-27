@@ -227,7 +227,7 @@ This script concatenates per-edition files and writes `fifa_players_2012_2025.cs
 ---
 
 ## Data Dictionary (Core Columns)
-*(Your exact columns may vary based on scraper selectors.)*
+*The total number of scraped columns in the dataset is 83*
 
 | Column | Type | Description |
 |--------|------|-------------|
